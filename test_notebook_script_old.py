@@ -19,26 +19,7 @@ st.markdown('''# Testing Jupyter Notebook -> Streamlit as markdown
 
 `blah`
 
-jnedjnbejdnbje
-hello
-
-**blah**
-
-huhuhuhuhu
-yadadad
-
-spiro
-
-
-jdj
-
-jsjs----jsj
-jsj
-
-
-
-
-''')
+**blah**''')
 
 
 # In[ ]:
@@ -46,12 +27,10 @@ jsj
 
 st.title('Test')
 written = st.text_area('type stuff')
-st.select_slider('', options=['1','2'])
 
 
 # In[ ]:
 
 
-st.write(written)
 st.write(written)
 
