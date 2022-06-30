@@ -5,7 +5,6 @@ Generate Streamlit apps from a Jupyter notebook
 
 ## Installation
 ```
-$ cd streamlit-jupyter
 $ poetry install 
 ```
 
