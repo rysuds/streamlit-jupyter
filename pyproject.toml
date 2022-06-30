@@ -1,9 +1,15 @@
 [tool.poetry]
 name = "streamlit-jupyter"
 version = "0.1.0"
-description = ""
+description = "Generate Streamlit apps from a Jupyter notebook"
 authors = ["Ryan <ryan.sudhakaran@gmail.com>"]
 license = "MIT"
+packages = [
+    { include = "streamlit_jupyter" }
+]
+
+[tool.poetry.scripts]
+streamlit-jupyter = "streamlit_jupyter.main:app"
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -14,6 +20,7 @@ watchfiles = "^0.15.0"
 typer = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
+pytest = "^5.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
